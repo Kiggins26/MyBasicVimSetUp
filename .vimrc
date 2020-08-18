@@ -16,4 +16,5 @@ set background=dark
 call plug#begin('~/.vim/plugged')
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
 call plug#end()

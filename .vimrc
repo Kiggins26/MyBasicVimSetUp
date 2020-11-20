@@ -13,10 +13,13 @@ set incsearch
 set mouse=a
 set background=dark
 
+colorscheme dracula
+
 call plug#begin('~/.vim/plugged')
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()

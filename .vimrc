@@ -13,6 +13,7 @@ set incsearch
 set mouse=a
 set background=dark
 
+packadd! dracula
 colorscheme dracula
 
 call plug#begin('~/.vim/plugged')

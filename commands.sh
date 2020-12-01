@@ -11,3 +11,7 @@ vim -u NONE -c "helptags surround/doc" -c q
 mkdir -p ~/.vim/pack/themes/start
 cd ~/.vim/pack/themes/start
 git clone https://github.com/dracula/vim.git dracula
+
+sudo apt install fzf
+sudo apt install ripgrep
+sudo apt install fd-find
